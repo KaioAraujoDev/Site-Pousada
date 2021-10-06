@@ -1,0 +1,188 @@
+body{
+		font-family:'Sourse Sans Pro',sans-serif;
+		width:100vw;
+		height:100vh;
+		margin:0;
+}
+
+/*Estilizando os link do topo
+	Header
+*/
+header{
+	display:flex;
+	align-content:flex-start;
+}
+.Topo{
+	max-width:1024px;
+	width:100vw;
+	height:8vh;
+	max-height:10vh;
+	border-bottom:1px outset #f7f8f8;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	position:fixed;
+	background-color:white;
+	padding-left:30px;
+}
+.link-topo{
+		color:black;
+		text-decoration:none;
+		font-size:13px;
+}
+.links{
+		padding-right:50px;
+		width:250px;
+		display:flex;
+		justify-content:space-around;
+}
+
+#link-principal{
+	font-size:20px;
+}
+
+#Principal{
+		color:rgb(0,155,255);
+}
+
+/** CONTEÚDO **/
+	/**Apresentação**/
+
+.Inicio{
+	background-image:url(assets/img-fundo.jpg);
+	background-image:no-repeat;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+
+.Inicio .Secao{
+		background-color:rgba(0, 155, 130,0.7);
+		display:flex;
+		border:1px outset #f7f8f8;
+		border-radius:5px;
+		flex-direction:column;
+		align-items:center;
+		color:white;
+		width:350px;
+}
+
+.Titulo{
+		font-size:30px;
+}
+
+/**Quartos**/
+
+.Conteudo{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+	height:200px;
+}
+.imgsquarto{
+		display:flex;
+		justify-content:space-around;
+}
+.img{
+		height:235px;	
+		width:275px;
+}
+.Rotulo{
+		display:flex;
+		height:40px;
+		align-items:center;
+		justify-content:center;
+		border-bottom:2px outset rgb(0,222,200);
+}
+.Rotulo .title{
+		text-decoration:none;
+		font-weight:bold;
+		font-size:17px;
+		color:black;
+}
+
+/**ROTA**/
+
+.map{
+		width:100vw;
+}
+
+/**SOBRE**/
+
+.Conteudo.Sobre{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		width:85vw;
+		height:450px;
+		
+}
+.Conteudo.Sobre div{
+		width:350px;
+		height:100px;
+		text-align:start;
+		display:flex;
+}
+.Conteudo.Sobre-main{
+	display:flex;
+	flex-direction:column;
+}
+.img-sobre{
+		height:100px;
+		width:80px;
+}
+.Titulo-Sobre{
+		font-size:15px;
+		
+}
+.Trecho{
+		font-size:13px;
+}
+
+/**Rodapé **/
+
+.Titulo.Rodape{
+		font-size:20px;
+		color:white;
+}
+.display-Contato{
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		background-color:rgb(0, 122, 87);
+		height:90px;
+}
+.display-Contato div{
+		padding:10px;
+}
+.Link-Contato{
+	display:flex;
+	text-decoration:none;
+	font-size:12px;
+	color:white;
+	align-items:center;
+}
+.img-Contato{
+		width:35px;
+		height:35px;
+		margin-right:10px;
+}
+.Copy{
+		background-color:rgb(0, 122, 87);
+		height:50px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		font-weight:bold;
+		color:white;
+		font-size:13px;
+		border:0.5px outset rgb(1, 88, 12);
+}
+.Copy p{
+	margin:0px;
+}	
